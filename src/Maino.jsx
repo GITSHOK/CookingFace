@@ -13,7 +13,7 @@ export default function Maino() {
         const recipeMarkeddown = await getRecipeFromChefClaude(newingredients)
         setrecipe(recipeMarkeddown)
     }
-
+    console.log("just checking for updates. made by NISHOK GANAPATHY BTW!!");
     function handleSubmit(event) {
         event.preventDefault()
         const formdata = new FormData(event.currentTarget)
